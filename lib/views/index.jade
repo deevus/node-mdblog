@@ -1,0 +1,12 @@
+include includes/config
+
+h1= settings.BlogName
+  small= settings.TagLine
+br
+
+- for (var post in posts)
+    .alert
+      a(href = posts[post].Link)
+        h3.alert-heading= posts[post].Title
+          small= "\ " + posts[post].Date
+    p!= posts[post].Content

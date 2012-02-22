@@ -1,0 +1,11 @@
+include includes/config
+
+h1 
+  small Search 
+  = Search
+
+- for (var post in posts)
+    a(href = posts[post].Link)
+      h2= posts[post].Title
+        small= "\ " + posts[post].Date
+    p!= posts[post].Content

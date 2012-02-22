@@ -1,0 +1,6 @@
+include includes/config
+
+a(href = Post.Link)
+  h2= Post.Title
+    small= "\ " + Post.Date
+p!= Post.Content

@@ -1,0 +1,51 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+/* --------  all screens (default) -----------  */
+	
+
+
+/* --------- iphone portrait -----------  */
+
+@media screen and (max-width: 320px) {
+
+	.navbar
+	{
+		display:none;
+	}
+	
+}
+
+/* --------  iphone landscape-----------  */
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+	
+}
+
+
+/* --------- ipad portrait -------------  */
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+	
+}
+
+/* --------- ipad landscape -------------  */
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+	
+}
+
+/* --------  large screen ( 1440px or more) -----------  */
+
+@media screen and (min-width: 1440px) {
+	
+}
+
+
+
+
