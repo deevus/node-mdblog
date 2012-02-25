@@ -6,7 +6,7 @@ br
 
 - for (var post in posts)
     .alert
-      a(href = posts[post].Link)
-        h3.alert-heading= posts[post].Title
-          small= "\ " + posts[post].Date
-    p!= posts[post].Content
+      a(href = posts[post].link)
+        h3.alert-heading= posts[post].title
+          small= "\ " + posts[post].datetext
+    p!= posts[post].content

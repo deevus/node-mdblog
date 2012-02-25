@@ -5,7 +5,7 @@ h1
   = Search
 
 - for (var post in posts)
-    a(href = posts[post].Link)
-      h2= posts[post].Title
-        small= "\ " + posts[post].Date
-    p!= posts[post].Content
+    a(href = posts[post].link)
+      h2= posts[post].title
+        small= "\ " + posts[post].datetext
+    p!= posts[post].content
