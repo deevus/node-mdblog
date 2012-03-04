@@ -4,8 +4,5 @@ h1
   small Search 
   = Search
 
-- for (var post in posts)
-    a(href = posts[post].link)
-      h2= posts[post].title
-        small= "\ " + posts[post].datetext
-    p!= posts[post].content
+each post in posts
+    include post

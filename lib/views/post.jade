@@ -1,6 +1,6 @@
-include includes/config
-
-a(href = Post.link)
-  h2= Post.title
-    small= "\ " + Post.datetext
-p!= Post.content
+a(href = post.link)
+  h3.alert
+    .alert-heading 
+      = post.title
+      small= "\ " + post.datetext
+p!= post.content

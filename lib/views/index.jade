@@ -4,9 +4,5 @@ h1= settings.BlogName
   small= settings.TagLine
 br
 
-- for (var post in posts)
-    .alert
-      a(href = posts[post].link)
-        h3.alert-heading= posts[post].title
-          small= "\ " + posts[post].datetext
-    p!= posts[post].content
+- each post in posts
+    include post
